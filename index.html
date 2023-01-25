@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Unbounded:wght@300&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="intro-page" style="background-image: url('https://source.unsplash.com/HyvE5SiKMUs')">
+        <nav>
+            <div class="nav-container">
+                <p>Logo!</p>
+                <ul class="nav-links">
+                    <a href="">Home</a>
+                    <a href="">Service</a>
+                    <a href="">About</a>
+                    <a href="">Sessions</a>
+                    <a href="">Contact</a>
+                </ul>
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="intro-info">
+            </div>
+            <div class="intro-info">
+                <div class="heading">
+                    <h1>One-on-One <span class="color">Personal Training</span></h1>
+                </div>
+                <div class="heading">
+                    <h1><span class="color">Online & In-person</span> sessions available in London</h1>
+                </div>
+                <div class="info-links">
+                    <a href="#" class="btn1">Enquire here</a>
+                    <a href="#" class="btn2">More info</a>
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="profile-page">
+    <div class="profile-container">
+        <div class="profile-heading">
+            <h1>Build your body in to a <span class="color">stronger</span> and <span class="color">healthier</span> one</h1>
+        </div>
+        <div class="video-wrapper">
+            <video playsinline autoplay muted loop class="profile-video" src="assets/Pexels Videos 2722910.mp4"></video>
+        </div>
+        <div class="profile-info">
+            <div class="profile-more-info">
+                <p><span class="color">Commitment</span> and <span class="color">Consistency</span> is the recipe for success. If you are able to focus on what it is you 
+                    really want, you will be able to <span class="color">achieve anything</span>.
+                </p>
+             <a href="#">Read more</a>
+            </div>
+            <div class="stats">
+                <p>132k</p>
+                <p style="font-size: 10px; color:white">SUBSCRIBERS</p>
+            </div>
+            <div class="stats">
+                <p>15k</p>
+                <p style="font-size: 10px; color:white">CLIENTS</p>
+            </div>
+            <div class="stats">
+                <p>232k</p>
+                <p style="font-size: 10px; color:white">Lives changed</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sessions-page">
+    <!-- <div class="sessions-container">
+        <div class="sessions-heading">
+            <h1>Sessions</h1>
+        </div>
+        <div class="sessions-card-container">
+            <div class="sessions-card">
+                <video playsinline autoplay muted loop class="sessions-video"  muted loop src="assets/gym.mp4"></video>
+                <p>regegrgg</p>
+            </div>
+            <div class="sessions-card">
+                <video playsinline autoplay muted loop class="sessions-video"  muted loop src="assets/running.mp4"></video>
+                <p>gregergg</p>
+            </div>
+            <div class="sessions-card">
+                <video playsinline autoplay muted loop  class="sessions-video" muted loop  src="assets/video (1).mp4"></video>
+                <p>gregergeg</p>
+            </div>
+        </div>
+        <div class="sessions-footer">
+            <p>fhdusifbuif</p>
+        </div>
+    </div> -->
+
+    <!-- Carousel wrapper -->
+    <section class="sessions-page">
+        <div class="sessions-heading">
+            <h1>Sessions are <span class="color">bespoke</span> for your <span class="color">needs</span></h1>
+            
+        </div>
+        <div class="carousel-container">
+            <div
+            id="carouselVideoExample"
+            class="carousel slide carousel-fade"
+            data-mdb-ride="carousel"
+            >
+            <!-- Indicators -->
+            <div class="carousel-indicators">
+            <button
+                type="button"
+                data-mdb-target="#carouselVideoExample"
+                data-mdb-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+            ></button>
+            <button
+                type="button"
+                data-mdb-target="#carouselVideoExample"
+                data-mdb-slide-to="1"
+                aria-label="Slide 2"
+            ></button>
+            <button
+                type="button"
+                data-mdb-target="#carouselVideoExample"
+                data-mdb-slide-to="2"
+                aria-label="Slide 3"
+            ></button>
+            </div>
+
+            <!-- Inner -->
+            <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <video class="img-fluid" autoplay loop muted>
+                <source src="assets/gym.mp4" type="video/mp4" />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Lifting</h5>
+                <p>
+                    You will be guided every step of the way, working on your 
+                    form and your nutrition. Teaching proper form so that you
+                    get the results that you are looking for.
+                </p>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <video class="img-fluid" autoplay loop muted>
+                <source src="assets/running.mp4" type="video/mp4" />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Cardio</h5>
+                <p>
+                    You will be guided every step of the way, working on your 
+                    form and your nutrition. Teaching proper form so that you
+                    get the results that you are looking for.
+                </p>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <video class="img-fluid" autoplay loop muted>
+                <source
+                    src="assets/video (1).mp4"
+                    type="video/mp4"
+                />
+                </video>
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Form</h5>
+                <p>
+                    You will be guided every step of the way, working on your 
+                    form and your nutrition. Teaching proper form so that you
+                    get the results that you are looking for.
+                </p>
+                </div>
+            </div>
+            </div>
+            <!-- Inner -->
+
+            <!-- Controls -->
+            <button
+            class="carousel-control-prev"
+            type="button"
+            data-mdb-target="#carouselVideoExample"
+            data-mdb-slide="prev"
+            >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+            class="carousel-control-next"
+            type="button"
+            data-mdb-target="#carouselVideoExample"
+            data-mdb-slide="next"
+            >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+            <!-- Carousel wrapper -->
+            
+        </div>
+  </section>
+
+<!-- <section class="exercise-page">
+
+    <div class="exercise-container">
+        <div class="exercise-card">
+            <div class="exercise-info">
+                <p>You will be guided every step of the way, working on your 
+                    form and your nutrition. Teaching proper form so that you
+                    get the results that you are looking for.
+                </p>
+            </div>
+            <div class="video-container">
+            <video playsinline autoplay muted loop class="exercise-video"  muted loop src="assets/gym.mp4"></video>
+        </div>
+        </div>
+
+        <div class="exercise-card">
+            <div class="video-container">
+                <video playsinline autoplay muted loop class="exercise-video"  muted loop src="assets/running.mp4"></video>
+            </div>
+            <div class="exercise-info">
+                <p>You will be guided every step of the way, working on your 
+                    form and your nutrition. Teaching proper form so that you
+                    get the results that you are looking for.
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="exercise-card">
+            <div class="exercise-info">
+                <p>You will be guided every step of the way, working on your 
+                    form and your nutrition. Teaching proper form so that you
+                    get the results that you are looking for.
+                </p>
+            </div>
+            <div class="video-container">
+                <video playsinline autoplay muted loop  class="exercise-video" muted loop  src="assets/video (1).mp4"></video>
+            </div>
+        </div>
+</div>
+
+</section> -->
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"
+      integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"
+      integrity="sha512-YzMW3OzvgtVpIIPPpjnCy8wVTq5slHRrxnLH1oD5dkVjZf8+8DJYd+GYmmWXZNmroTqKXFFzFS3XZ/LBvaNgZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+></script>
+    <script src="app.js"></script>
+</body>
+</html>
