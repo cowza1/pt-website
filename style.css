@@ -237,7 +237,7 @@ nav {
   text-align: center;
   padding-top: 10px;
   color: white;
-  /* margin-bottom: 30px; */
+  padding: 10px 0
 }
 
 
@@ -249,7 +249,7 @@ nav {
 
 
 .carousel-container {
-  margin-top: 40px;
+  margin: auto;
   height: 80%;
   /* width: auto; */
   display: flex;
@@ -267,13 +267,22 @@ nav {
   grid-template-columns: 1.5fr 1fr;
   height: 80%;
   margin: auto 0;
+  border-top: 3px solid #A0E432;
+  border-bottom: 3px solid #A0E432;
 }
 
 .sessions-info {
   /* margin-top: 30px; */
   color: white;
-  margin: auto;
+  margin: auto 0;
+  width: 80%;
 }
+
+/*
+.sessions-info p:nth-child(even) {
+  padding: 5px 8px;
+  border-radius: 5px;
+} */
 
 .carousel-caption {
   font-size: 10px;
